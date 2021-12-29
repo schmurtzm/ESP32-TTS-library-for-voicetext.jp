@@ -1,6 +1,6 @@
 {
     "name": " ESP32-TTS-library-for-voicetext.jp",
-    "description": "It is a test library that runs voice synthesis (TTS) on ESP32 using VoiceText Web API service.",
+    "description": "It is a test library that runs japaneese voice synthesis (TTS) on ESP32 using VoiceText Web API service.",
     "keywords": "ESP8266, ESP32, TTS, ESP8266Audio",
     "authors": [
         {

@@ -1,5 +1,5 @@
 # ESP32 TTS library for voicetext.jp
-It is a test library that runs voice synthesis (TTS) on ESP32 using [VoiceText Web API service](https://cloud.voicetext.jp/webapi).
+It is a test library that runs Japanese voice synthesis (TTS) on ESP32 using [VoiceText Web API service](https://cloud.voicetext.jp/webapi). VoiceText service is free only for japaneese voices (so don't expect english speak).
 
 This library is entierly based on the work of robo8080 : [M5Core2_Avatar_VoiceText_TTS ](https://github.com/robo8080/M5Core2_Avatar_VoiceText_TTS)
 
