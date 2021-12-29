@@ -47,6 +47,7 @@ class AudioFileSourceVoiceTextStream : public AudioFileSource
     virtual bool isOpen() override;
     virtual uint32_t getSize() override;
     virtual uint32_t getPos() override;
+    //virtual String setApiKey(String CurrentAPI);
     bool SetReconnect(int tries, int delayms) { reconnectTries = tries; reconnectDelayMs = delayms; return true; }
     void useHTTP10 () { http.useHTTP10(true); }
 
@@ -63,6 +64,7 @@ class AudioFileSourceVoiceTextStream : public AudioFileSource
     char saveURL[128];
     const char *text;
     const char *parms;
+    //String ApiKey;
 };
 
 

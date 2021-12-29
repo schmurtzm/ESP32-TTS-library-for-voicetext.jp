@@ -27,7 +27,7 @@
 // You should get apikey
 // visit https://cloud.voicetext.jp/webapi
 const String tts_url = "https://api.voicetext.jp/v1/tts";
-const String tts_user = "YOUR_TSS_API_KEY"; // set your id
+String tts_user = "YOUR_TSS_API_KEY"; // set your id
 const String tts_pass = "";  // passwd is blank
 
 // from http://hardwarefun.com/tutorials/url-encoding-in-arduino
@@ -201,5 +201,10 @@ uint32_t AudioFileSourceVoiceTextStream::getPos()
 {
   return pos;
 }
+
+// String AudioFileSourceVoiceTextStream::setApiKey(String CurrentAPI)
+ // {
+   // tts_user = CurrentAPI;
+ // }
 
 #endif

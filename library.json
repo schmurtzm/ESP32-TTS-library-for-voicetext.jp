@@ -1,0 +1,25 @@
+{
+    "name": " ESP32-TTS-library-for-voicetext.jp",
+    "description": "It is a test library that runs voice synthesis (TTS) on ESP32 using VoiceText Web API service.",
+    "keywords": "ESP8266, ESP32, TTS, ESP8266Audio",
+    "authors": [
+        {
+            "name": "Schmurtz",
+            "email": "SChmurtz@gmail.com",
+            "url": "https://github.com/schmurtzm/ESP32-TTS-library-for-voicetext.jp",
+            "maintainer": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+         "url": "https://github.com/schmurtzm/ESP32-TTS-library-for-voicetext.jp"
+    },
+    "version": "0.0.1",
+    "homepage": "https://github.com/schmurtzm/ESP32-TTS-library-for-voicetext.jp",
+    "dependencies": {
+    },
+    "frameworks": "Arduino",
+    "examples": [
+        "examples/*/*.ino"
+    ]
+}
